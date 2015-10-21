@@ -31,6 +31,6 @@ func main() {
 	log.Printf("Run clean up database")
 	defer session.Close()
 	tasks.CleanReplyUnlinkPost(database.C("replies"), database.C("posts"))
-
 	tasks.CleanRateUnlinkPost(database.C("rates"), database.C("posts"))
+	tasks.DeleteUncompletedPost(database.C("posts"))
 }

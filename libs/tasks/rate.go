@@ -26,5 +26,5 @@ func CleanRateUnlinkPost(rate *mgo.Collection, post *mgo.Collection) {
 			cleanC++
 		}
 	}
-	log.Printf("Clean %d rate with broken link to post", cleanC)
+	log.Printf("Wipeout %d rates with broken link to post", cleanC)
 }

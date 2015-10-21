@@ -26,5 +26,5 @@ func CleanReplyUnlinkPost(reply *mgo.Collection, post *mgo.Collection) {
 			cleanC++
 		}
 	}
-	log.Printf("Clean %d reply with broken link to post", cleanC)
+	log.Printf("Wipeout %d replies with broken link to post", cleanC)
 }
