@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/nut-abctech/zon-db-cleanup",
+	"GoVersion": "go1.5.1",
+	"Deps": [
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2015.10.05",
+			"Rev": "f402e3a216db333ae6b3ba68b9152a34a0bc6984"
+		}
+	]
+}
